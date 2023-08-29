@@ -1,0 +1,19 @@
+{
+  "item.computable.transistor": "Transistor",
+  "item.computable.basic_chip": "Basic Chip",
+  "item.computable.analyser": "Analyser",
+  "item.computable.clock": "Clock",
+  "item.computable.alu": "ALU",
+  "item.computable.eeprom": "EEPROM",
+  "item.computable.cpu": "CPU",
+  "item.computable.ram": "RAM",
+
+  "block.computable.case": "Computer Case",
+  "blockentity.computable.case": "Computer Case",
+  "blockentity.computable.case.analyser": "Analysing: Computer Case\nPowered: %1$s\nIndicating: %2$s\nEnergy: %3$s",
+
+  "gui.computable.analyser.a": "========== ANALYSER ==========",
+  "gui.computable.analyser.b": "========== -------- ==========",
+
+  "itemGroup.computable": "Computable"
+}

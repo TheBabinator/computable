@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "ABC",
+    "IRI"
+  ],
+  "key": {
+    "A": {
+      "item": "computable:alu"
+    },
+    "B": {
+      "item": "computable:basic_chip"
+    },
+    "C": {
+      "item": "computable:clock"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "computable:cpu"
+  }
+}

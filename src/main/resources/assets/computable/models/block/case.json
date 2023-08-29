@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "computable:block/case_top",
+    "down": "computable:block/case_top",
+    "up": "computable:block/case_top",
+    "north": "computable:block/case_front",
+    "east": "computable:block/case_side",
+    "south": "computable:block/case_back",
+    "west": "computable:block/case_side"
+  }
+}

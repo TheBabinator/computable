@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "TCT",
+    "IRI"
+  ],
+  "key": {
+    "C": {
+      "item": "computable:basic_chip"
+    },
+    "T": {
+      "item": "computable:transistor"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "computable:alu"
+  }
+}
