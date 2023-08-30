@@ -1,12 +1,13 @@
 {
   "item.computable.transistor": "Transistor",
   "item.computable.basic_chip": "Basic Chip",
-  "item.computable.analyser": "Analyser",
   "item.computable.clock": "Clock",
   "item.computable.alu": "ALU",
-  "item.computable.eeprom": "EEPROM",
+
+  "item.computable.analyser": "Analyser",
   "item.computable.cpu": "CPU",
   "item.computable.ram": "RAM",
+  "item.computable.eeprom": "EEPROM",
 
   "block.computable.case": "Computer Case",
   "blockentity.computable.case": "Computer Case",
@@ -14,6 +15,11 @@
 
   "gui.computable.analyser.a": "========== ANALYSER ==========",
   "gui.computable.analyser.b": "========== -------- ==========",
+  "gui.computable.analyser.description": "Right click on mod items for more information.",
+  "gui.computable.cpu.description": "Carries out the most important functions of a computer.",
+  "gui.computable.ram.description": "Serves as temporary storage for running programs on a computer.",
+  "gui.computable.eeprom.description": "Provides initial instructions for when a computer starts.",
+  "gui.computable.storage": "Storage: %1$s",
 
   "itemGroup.computable": "Computable"
 }

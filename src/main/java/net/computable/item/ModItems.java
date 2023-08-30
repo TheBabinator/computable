@@ -16,9 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> ANALYSER = ITEMS.register("analyser", () -> new AnalyserItem(properties(1)));
     public static final RegistryObject<Item> CLOCK = basicItem("clock");
     public static final RegistryObject<Item> ALU = basicItem("alu");
-    public static final RegistryObject<Item> CPU = basicItem("cpu");
-    public static final RegistryObject<Item> RAM = basicItem("ram");
-    public static final RegistryObject<Item> EEPROM = basicItem("eeprom");
+    public static final RegistryObject<Item> CPU = ITEMS.register("cpu", () -> new CPUItem(properties(1), 1));
+    public static final RegistryObject<Item> RAM = ITEMS.register("ram", () -> new RAMItem(properties(1), 1024));
+    public static final RegistryObject<Item> EEPROM = ITEMS.register("eeprom", () -> new EEPROMItem(properties(1), 1024));
 
     private static Item.Properties properties() {
         return new Item.Properties();
