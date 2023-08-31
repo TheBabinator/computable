@@ -8,6 +8,7 @@
   "item.computable.cpu": "CPU",
   "item.computable.ram": "RAM",
   "item.computable.eeprom": "EEPROM",
+  "item.computable.drive": "Hard Disk",
 
   "block.computable.case": "Computer Case",
   "blockentity.computable.case": "Computer Case",
@@ -19,7 +20,11 @@
   "gui.computable.cpu.description": "Carries out the most important functions of a computer.",
   "gui.computable.ram.description": "Serves as temporary storage for running programs on a computer.",
   "gui.computable.eeprom.description": "Provides initial instructions for when a computer starts.",
+  "gui.computable.drive.description": "Mass data storage medium used for many applications.",
+  "gui.computable.address": "Address: %1$s",
   "gui.computable.storage": "Storage: %1$s",
+  "gui.computable.cpu.clockspeed": "Clock: %1$s Hz",
+  "gui.computable.ram.capacity": "Memory: %1$s B",
 
   "itemGroup.computable": "Computable"
 }

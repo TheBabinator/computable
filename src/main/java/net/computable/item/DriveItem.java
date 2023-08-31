@@ -12,8 +12,8 @@ import org.jetbrains.annotations.Nullable;
 import java.io.File;
 import java.util.List;
 
-public class EEPROMItem extends StorageItem {
-    public EEPROMItem(Properties pProperties, int pCapacity) {
+public class DriveItem extends StorageItem {
+    public DriveItem(Properties pProperties, int pCapacity) {
         super(pProperties, pCapacity);
     }
 
@@ -22,8 +22,7 @@ public class EEPROMItem extends StorageItem {
         super.onCreated(stack, tag);
         try {
             File file = getPath(tag).toFile();
-            file.getParentFile().mkdirs();
-            file.createNewFile();
+            file.mkdirs();
         } catch (Exception e) {
             ModMain.LOGGER.debug(e.toString());
         }
@@ -31,7 +30,7 @@ public class EEPROMItem extends StorageItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("gui.computable.eeprom.description").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("gui.computable.drive.description").withStyle(ChatFormatting.GRAY));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }

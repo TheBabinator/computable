@@ -50,6 +50,7 @@ public class CaseBlockEntity extends BlockEntity implements MenuProvider, IAnaly
         public boolean isItemValid(int slot, @NotNull ItemStack stack) {
             return switch (slot) {
                 case 0 -> stack.getItem() == ModItems.EEPROM.get();
+                case 1, 2 -> stack.getItem() == ModItems.DRIVE.get();
                 case 3 -> stack.getItem() == ModItems.CPU.get();
                 case 4, 5 -> stack.getItem() == ModItems.RAM.get();
                 default -> false;
@@ -194,7 +195,7 @@ public class CaseBlockEntity extends BlockEntity implements MenuProvider, IAnaly
         if (energyHandler.getEnergyStored() == 0) return;
         powered = true;
         indicator = false;
-        computer = new Computer(energyHandler);
+        computer = new Computer(itemHandler, energyHandler);
         sync();
         setChanged();
     }

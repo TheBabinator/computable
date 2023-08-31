@@ -25,6 +25,7 @@ public class ModCreativeModeTab {
             addItem(pItems, ModItems.CPU);
             addItem(pItems, ModItems.RAM);
             addItem(pItems, ModItems.EEPROM);
+            addItem(pItems, ModItems.DRIVE);
             addBlock(pItems, ModBlocks.CASE);
         }
     };
